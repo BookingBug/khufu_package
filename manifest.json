@@ -6,15 +6,16 @@
   "author": "Glenn Shoosmith",
   "licence": "GPL",
   "tags": "",
+  "config": true
   "panels": [
     "test_panel"
   ],
   "objects": [
-    "test_object"
+    "test_object",
+    "test_extension"
   ],
-  "objects": [
+  "scripts": [
     "test_script"
-  ],
-  "config": true
+  ]
 
 }

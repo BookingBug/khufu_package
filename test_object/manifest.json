@@ -4,7 +4,7 @@
   "created_at": "2018-07-19",
   "updated_at": "2018-07-19",
   "permissinons": {
-    "admin": ["new","edit", "put","pust","list","get","del"],
+    "admin": ["new","edit", "put","post","list","get","del"],
     "public": ["get"]
   },
   "drops": true,
