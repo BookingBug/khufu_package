@@ -6,7 +6,7 @@
   "author": "Glenn Shoosmith",
   "licence": "GPL",
   "tags": "",
-  "config": true
+  "config": true,
   "panels": [
     "test_panel"
   ],
