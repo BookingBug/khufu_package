@@ -17,6 +17,8 @@
   ],
   "scripts": [
     "test_script"
+  ],
+  "liquid": [
+    "test_liquid"
   ]
-
 }
