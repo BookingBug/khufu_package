@@ -25,6 +25,24 @@
       "log_type": "Tail",
       "enabled": true,
       "handler": "admin_test"
+    },
+    {
+      "name":"AfterClientCreate",
+      "description":"When a client is created",
+      "type":"ClientTrigger",
+      "actions": ["Create"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "after_create_client_trigger"
+    },
+    {
+      "name":"AfterClientUpdate",
+      "description":"When a client is updated",
+      "type":"ClientTrigger",
+      "actions": ["Update"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "after_update_client_trigger"
     }
   ]
 }

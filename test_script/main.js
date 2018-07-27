@@ -20,3 +20,25 @@ exports.admin_test = (event, context, callback) => {
 
 
 };
+
+exports.after_create_client_trigger = (client, callback) => {
+    // TODO implement
+
+
+    console.log("trying to create the client", event, context)
+
+    callback(null, {success:false, connection_down: true});
+
+
+};
+
+exports.after_update_client_trigger = (client, callback) => {
+    // TODO implement
+
+
+    console.log("trying to create the client", event, context)
+
+    callback(null, {success:true, connection_down: false});
+
+
+};
