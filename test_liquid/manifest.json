@@ -1,0 +1,12 @@
+{
+  "template_group":"myliquid",
+  "templates": [
+    {
+      "file": "sample.js",
+      "key": "sample_template",
+      "name": "A saaple template",
+      "description": "This is an exmaple liquid template",
+      "drops": ["client", "company"]
+    }
+  ]
+}
