@@ -2,9 +2,9 @@
   "template_group":"myliquid",
   "templates": [
     {
-      "file": "sample.js",
+      "file": "sample.html",
       "key": "sample_template",
-      "name": "A saaple template",
+      "name": "A sample template",
       "description": "This is an exmaple liquid template",
       "drops": ["client", "company"]
     }
