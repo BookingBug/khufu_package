@@ -25,7 +25,7 @@ exports.after_create_client_trigger = (data, callback) => {
     // TODO implement
 
 
-    console.log("trying to create the client", data)
+    console.log("After creating the client", data)
 
     callback(null, {success:false, connection_down: true});
 
@@ -36,7 +36,12 @@ exports.after_update_client_trigger = (data, callback) => {
     // TODO implement
 
 
-    console.log("trying to create the client", data)
+    console.log("After updating the client", data)
+
+    data.client.$getInteractions().then(function(result) {
+        console.log("***GOT SOME INTERACTIONS", result);
+    });
+
 
     callback(null, {success:true, connection_down: false});
 
