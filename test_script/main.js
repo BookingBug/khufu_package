@@ -47,3 +47,21 @@ exports.after_update_client_trigger = (data, callback) => {
 
 
 };
+
+exports.after_create_booking_trigger = (data, callback) => {
+    // TODO implement
+    console.log("After creating the booking", data)
+    callback(null, {success:false, connection_down: true});
+};
+
+exports.after_update_booking_trigger = (data, callback) => {
+    // TODO implement
+    console.log("After updating the booking", data)
+    callback(null, {success:true, connection_down: false});
+};
+
+exports.after_delete_booking_trigger = (data, callback) => {
+    // TODO implement
+    console.log("After deleting the booking", data)
+    callback(null, {success:false, connection_down: true});
+};

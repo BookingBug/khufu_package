@@ -43,6 +43,33 @@
       "log_type": "Tail",
       "enabled": true,
       "handler": "after_update_client_trigger"
+    },
+    {
+      "name":"AfterBookingCreate",
+      "description":"When a booking is created",
+      "type":"BookingTrigger",
+      "actions": ["Create"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "after_create_booking_trigger"
+    },
+    {
+      "name":"AfterBookingUpdate",
+      "description":"When a booking is updated",
+      "type":"BookingTrigger",
+      "actions": ["Update"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "after_update_booking_trigger"
+    },
+    {
+      "name":"AfterBookingDelete",
+      "description":"When a booking is deleted",
+      "type":"BookingTrigger",
+      "actions": ["Delete"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "after_delete_booking_trigger"
     }
   ]
 }
