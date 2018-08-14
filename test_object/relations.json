@@ -1,14 +1,14 @@
 [
   {
-    "left":"TestObject",
-    "right":"Client",
+    "left":"test_object",
+    "right":"client",
     "type":"has_many",
     "drops": true,
     "hal": true
   },
   {
-    "left":"TestObject",
-    "right":"Person",
+    "left":"test_object",
+    "right":"person",
     "type":"has_one",
     "drops": true,
     "hal": true
