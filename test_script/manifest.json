@@ -10,7 +10,7 @@
   [
     {
       "name":"TestAdminScript",
-      "description":"An exmaple script",
+      "description":"An example script",
       "type":"PublicScript",
       "actions": ["Get"],
       "log_type": "Tail",
@@ -19,7 +19,7 @@
     },
     {
       "name":"TestPublicScript",
-      "description":"An exmaple script",
+      "description":"An example script",
       "type":"AdminScript",
       "actions": ["Get", "Post", "Put"],
       "log_type": "Tail",
@@ -29,8 +29,8 @@
     {
       "name":"AfterClientCreate",
       "description":"When a client is created",
-      "type":"ClientTrigger",
-      "actions": ["Create"],
+      "type":"Clients",
+      "actions": ["created"],
       "log_type": "Tail",
       "enabled": true,
       "handler": "after_create_client_trigger"
@@ -38,8 +38,8 @@
     {
       "name":"AfterClientUpdate",
       "description":"When a client is updated",
-      "type":"ClientTrigger",
-      "actions": ["Update"],
+      "type":"Clients",
+      "actions": ["updated"],
       "log_type": "Tail",
       "enabled": true,
       "handler": "after_update_client_trigger"
@@ -47,8 +47,8 @@
     {
       "name":"AfterBookingCreate",
       "description":"When a booking is created",
-      "type":"BookingTrigger",
-      "actions": ["Create"],
+      "type":"Bookings",
+      "actions": ["created"],
       "log_type": "Tail",
       "enabled": true,
       "handler": "after_create_booking_trigger"
@@ -56,8 +56,8 @@
     {
       "name":"AfterBookingUpdate",
       "description":"When a booking is updated",
-      "type":"BookingTrigger",
-      "actions": ["Update"],
+      "type":"Bookings",
+      "actions": ["updated"],
       "log_type": "Tail",
       "enabled": true,
       "handler": "after_update_booking_trigger"
@@ -65,8 +65,8 @@
     {
       "name":"AfterBookingDelete",
       "description":"When a booking is deleted",
-      "type":"BookingTrigger",
-      "actions": ["Delete"],
+      "type":"Bookings",
+      "actions": ["cancelled"],
       "log_type": "Tail",
       "enabled": true,
       "handler": "after_delete_booking_trigger"
