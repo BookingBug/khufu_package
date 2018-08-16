@@ -1,0 +1,7 @@
+[
+  {
+    "left":"client",
+    "right":"test_object",
+    "type":"has_one"
+  }
+]

@@ -1,14 +1,14 @@
 [
   {
     "left":"test_object",
-    "right":"client",
+    "right":"bookingbug.client",
     "type":"has_many",
     "drops": true,
     "hal": true
   },
   {
     "left":"test_object",
-    "right":"person",
+    "right":"bookingbug.person",
     "type":"has_one",
     "drops": true,
     "hal": true
