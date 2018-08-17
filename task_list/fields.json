@@ -1,0 +1,23 @@
+[
+  {
+    "key": "name",
+    "type": "string",
+    "default": false,
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": ["get", "list"]
+    }
+  },
+  {
+    "key": "deadline",
+    "type": "string",
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": ["get"]
+    }
+  }
+]

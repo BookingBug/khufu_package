@@ -1,7 +1,0 @@
-[
-  {
-    "left":"bookingbug.Person",
-    "right":"test_object",
-    "type":"has_one"
-  }
-]

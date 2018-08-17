@@ -12,8 +12,8 @@
     "test_panel"
   ],
   "objects": [
-    "test_object",
-    "test_extension"
+    "task",
+    "task_list"
   ],
   "scripts": [
     "test_script"
