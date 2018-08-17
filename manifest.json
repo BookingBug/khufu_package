@@ -13,7 +13,8 @@
   ],
   "objects": [
     "task",
-    "task_list"
+    "task_list",
+    "bookingbug.Space"
   ],
   "scripts": [
     "test_script"
