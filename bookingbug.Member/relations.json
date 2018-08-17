@@ -1,0 +1,7 @@
+[
+  {
+    "left":"bookingbug.Member",
+    "right":"test_object",
+    "type":"has_one"
+  }
+]
