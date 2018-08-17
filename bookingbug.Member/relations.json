@@ -1,6 +1,6 @@
 [
   {
-    "left":"bookingbug.Client",
+    "left":"bookingbug.Member",
     "right":"test_object",
     "type":"has_one"
   }
