@@ -1,6 +1,6 @@
 {
-  "name": "test_object",
-  "verison": "0.1",
+  "name": "task_list",
+  "version": "0.1",
   "created_at": "2018-07-19",
   "updated_at": "2018-07-19",
   "drops": true,

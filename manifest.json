@@ -1,7 +1,7 @@
 {
   "bbAppManifestVersion":"1.0",
   "name": "Glenn Test App",
-  "unique_name": "TestApp",
+  "unique_name": "demo",
   "version": "0.1",
   "description": "Glenn's test app",
   "author": "Glenn Shoosmith",
@@ -12,8 +12,9 @@
     "test_panel"
   ],
   "objects": [
-    "test_object",
-    "test_extension"
+    "task",
+    "task_list",
+    "bookingbug.Space"
   ],
   "scripts": [
     "test_script"
