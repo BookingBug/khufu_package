@@ -2,7 +2,7 @@
   {
     "key": "name",
     "type": "string",
-    "default": false,
+    "default": "A list of things to do",
     "required": true,
     "drops": true,
     "permissions": {
