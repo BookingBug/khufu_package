@@ -12,7 +12,7 @@
       "name":"AfterBookingCreate",
       "description":"When a booking is created",
       "type":"Bookings",
-      "actions": ["created"],
+      "actions": ["create"],
       "log_type": "Tail",
       "enabled": true,
       "handler": "after_create_booking_trigger"
