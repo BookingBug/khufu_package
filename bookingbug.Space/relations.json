@@ -1,7 +1,0 @@
-[
-  {
-    "left":"bookingbug.Space",
-    "right":"task_list",
-    "type":"has_one"
-  }
-]

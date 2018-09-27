@@ -8,18 +8,7 @@
   "licence": "GPL",
   "tags": "",
   "config": true,
-  "panels": [
-    "test_panel"
-  ],
-  "objects": [
-    "task",
-    "task_list",
-    "bookingbug.Space"
-  ],
   "scripts": [
     "test_script"
-  ],
-  "liquid": [
-    "test_liquid"
   ]
 }
