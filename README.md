@@ -1,2 +1,1 @@
-# khufu_package
-A Khufu package example
+Gwe's Sso App
