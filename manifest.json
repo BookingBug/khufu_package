@@ -3,12 +3,12 @@
   "name": "Gwe's Sso App",
   "unique_name": "GweSsoApp",
   "version": "0.1",
-  "description": "App handling authentication to Bookingbug via my Sso",
+  "description": "App handling authentication to Bookingbug using my Sso tokens",
   "author": "Gwe Limpalaer",
   "licence": "GPL",
   "tags": "",
   "config": false,
-  "scripts": [
-    "sso_script"
+  "script_packs": [
+    "sso_scripts"
   ]
 }

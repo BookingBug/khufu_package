@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "name": "SsoScriptsPack",
+  "description": "Sso Script for Gwe's Sso App",
+  "platform": "nodejs8.10",
+  "created_at": "2018-10-12",
+  "updated_at": "2018-10-12",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"MemberSsoScript",
+      "description":"Gwe's Member Sso script",
+      "type":"SSO",
+      "actions": ["member_login"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "member_sso_script"
+    },
+    {
+      "name":"AdminSsoScript",
+      "description":"Gwe's Admin Sso script",
+      "type":"SSO",
+      "actions": ["admin_login"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "admin_sso_script"
+    }
+  ]
+}
