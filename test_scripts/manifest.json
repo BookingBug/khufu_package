@@ -11,7 +11,7 @@
     {
       "name":"GwePubliScript",
       "description":"Test public script",
-      "type":"PublicScript",
+      "type":"AdminScript",
       "actions": ["Get"],
       "log_type": "Tail",
       "enabled": true,
