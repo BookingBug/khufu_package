@@ -9,7 +9,7 @@ exports.member_sso_script = (data, callback) => {
 };
 
 exports.admin_sso_script = (data, callback) => {
-    console.log("Running SSO script with token:", data.token)
+    console.log("Running SSO script with token:", data)
 
     if(data.token == 1234){
         callback(null, {'status': 'success', 'data': {'first_name': 'gwe', 'last_name': 'Limpalaer', 'email': 'glimpalaer+5@bookingbug.com', 'company_id': 37000 }});

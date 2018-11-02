@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "name": "TestScriptsPack",
+  "description": "Test Public Scripts for Gwe's Sso App",
+  "platform": "nodejs8.10",
+  "created_at": "2018-10-12",
+  "updated_at": "2018-10-12",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"GwePubliScript",
+      "description":"Test public script",
+      "type":"PublicScript",
+      "actions": ["Get"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "public_test"
+    }
+  ]
+}

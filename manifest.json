@@ -7,8 +7,8 @@
   "author": "Gwe Limpalaer",
   "licence": "GPL",
   "tags": "",
-  "config": false,
+  "config": true,
   "script_packs": [
-    "sso_scripts"
+    "sso_scripts", "test_scripts"
   ]
 }

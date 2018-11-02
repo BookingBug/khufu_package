@@ -1,2 +1,7 @@
 {
+  "sso_decryption_key":  {
+    "title": "SsoKey",
+    "type": "string"
+  },
+  "required": ["sso_decryption_key"]
 }
