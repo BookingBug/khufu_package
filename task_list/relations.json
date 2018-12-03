@@ -8,7 +8,7 @@
   },
   {
     "left":"task_list",
-    "right":"bookingbug.Space",
+    "right":"bb.booking",
     "type":"has_one",
     "drops": true,
     "hal": true

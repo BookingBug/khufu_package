@@ -1,6 +1,6 @@
 [
   {
-    "left":"bookingbug.Space",
+    "left":"bb.booking",
     "right":"task_list",
     "type":"has_one"
   }

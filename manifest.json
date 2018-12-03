@@ -14,7 +14,7 @@
   "objects": [
     "task",
     "task_list",
-    "bookingbug.Space"
+    "bb.booking"
   ],
   "scripts": [
     "test_script"
