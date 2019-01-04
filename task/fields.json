@@ -1,5 +1,5 @@
-[
-  {
+{
+  "completed": {
     "key": "completed",
     "type": "boolean",
     "default": false,
@@ -10,7 +10,7 @@
       "public": ["get", "list"]
     }
   },
-  {
+  "name": {
     "key": "name",
     "type": "string",
     "required": true,
@@ -20,4 +20,4 @@
       "public": ["get"]
     }
   }
-]
+}

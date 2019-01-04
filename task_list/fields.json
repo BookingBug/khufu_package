@@ -1,5 +1,5 @@
-[
-  {
+{
+  "name": {
     "key": "name",
     "type": "string",
     "default": "A list of things to do",
@@ -10,7 +10,7 @@
       "public": ["get", "list"]
     }
   },
-  {
+  "deadline": {
     "key": "deadline",
     "type": "string",
     "required": true,
@@ -20,4 +20,4 @@
       "public": ["get"]
     }
   }
-]
+}
