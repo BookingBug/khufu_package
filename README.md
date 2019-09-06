@@ -1,2 +1,2 @@
-# khufu_package
-A Khufu package example
+# jrni_package
+A JRNI App package example
