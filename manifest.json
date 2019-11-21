@@ -9,14 +9,13 @@
   "tags": "",
   "config": true,
   "panels": [
-    "test_panel"
   ],
   "objects": [
     "task",
     "task_list",
     "bb.booking"
   ],
-  "scripts": [
+  "script_packs": [
     "test_script"
   ],
   "liquid": [
